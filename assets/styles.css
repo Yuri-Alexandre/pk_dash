@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgb(25, 46, 47);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('logo4.jpg');
+    background-size: cover; /* Cobre toda a tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgb(123, 169, 169);
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100px; 
+    width: 101%;
+
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(123, 169, 169);
+
+
+}
+a{
+    background-color: rgb(123, 169, 169);
+    font-size: 19px;
+    transition: 0.25s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a:hover{
+    color: rgb(237, 238, 240);
+}
+main{
+    padding: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    border-radius: 10px;
+    width: 1430px;
+    margin-left: 10px;
+    background-color: rgb(123, 169, 169);
+}
+.imgCardsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.CardsContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+
+
+}
+/* Estilo para o card */
+.card {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;  /* Alinha o conteúdo horizontalmente (imagem + texto) */
+    justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+    align-items: center;  /* Centraliza verticalmente */
+    gap: 20px;  /* Espaço entre a imagem e o texto */
+    background-color: rgb(123, 169, 169);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    width: 100%;  /* Garante que o card ocupe toda a largura disponível */
+    max-width: 500px;  /* Limita a largura máxima do card */
+}
+.card:hover {
+    transform: scale(1.02);
+    background-color: rgb(58, 89, 92);
+}
+.card img {
+    width: 150px; /* Define a largura fixa da imagem */
+    height: 150px; /* Define a altura fixa da imagem */
+    border-radius: 50%; /* Torna a imagem arredondada */
+    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+    margin-right: 20px; /* Espaço à direita da imagem */
+}
+
+/* Estilo para o texto dentro do card */
+.card .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha o texto verticalmente */
+    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 80%;  /* Limita a largura máxima do texto */
+}
+
+.card .txt p {
+    margin: 0;
+    padding: 10px;
+    line-height: 1.5;
+    color: inherit;
+    background-color: rgb(58, 89, 92);
+    border-radius: 8px;
+    width: 100%;
+}
+#logo{
+    width: 175px;
+    height: 175px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    border-radius: 50%;
+    background-size:cover;
+    object-fit: cover;
+    object-position: center;
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: rgb(123, 169, 169);
+    height: 130px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+

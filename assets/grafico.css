@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: rgb(25, 46, 47);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('fundo.jpg');
+    background-size: cover; /* Cobre toda a tela */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgb(123, 169, 169);
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100px; 
+    width: 101%;
+
+}
+nav{
+    width: 60%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(123, 169, 169);
+
+
+}
+a{
+    background-color: rgb(123, 169, 169);
+    font-size: 19px;
+    transition: 0.25s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a:hover{
+    color: rgb(237, 238, 240);
+}
+main{
+    padding: 30px;}
+h1{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    border-radius: 10px;
+    width: 1430px;
+    margin-left: 10px;
+    background-color: rgb(123, 169, 169);
+}
+/* Centraliza o conteúdo dentro do body */
+.central-container {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    flex-direction: column;   /* Alinha os itens de cima para baixo */
+    gap: 30px;  /* Espaçamento entre o container de botões e o gráfico */
+    padding: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;  /* Distribui os botões de forma igual */
+    width: 100%;  /* Largura dos botões */
+    background-color: rgb(123, 169, 169);/* Fundo para os botões */
+    padding: 20px;
+    border-radius: 10px;  /* Bordas arredondadas */
+}
+.x {
+    font-size: 19px;
+}
+
+.chart-container {
+    width: 100%;  /* Largura do gráfico */
+    background-color: rgb(123, 169, 169);  /* Cor de fundo para o gráfico */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: rgb(123, 169, 169);
+    height: 130px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
